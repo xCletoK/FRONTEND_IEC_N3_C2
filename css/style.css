@@ -1,0 +1,135 @@
+body {
+    background-color: #0a0a0a;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px 10%;
+}
+
+h1 {
+    color: #8b0000;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8b0000;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #8b0000;
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #8b0000;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #8b0000;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #8b0000;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.caj-prin {
+    background-color: #141414;
+    border-radius: 4px;
+    padding: 25px;
+    border-left: 5px solid #8b0000;
+}
+
+.cont-sup {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.sec-izq {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #222;
+    padding-right: 20px;
+}
+
+.sec-der {
+    flex: 3;
+    padding-left: 30px;
+}
+
+.fot-per {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #8b0000;
+    box-shadow: #8b0000 0px 0px 10px;
+    object-fit: cover;
+}
+
+.eti-fot {
+    margin-top: 15px;
+    color: #8b0000;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.cont-prin {
+    display: flex;
+    gap: 25px;
+}
+
+.col-lat {
+    flex: 1;
+}
+
+.col-cue {
+    flex: 2.5;
+}
+
+.ite-his {
+    border-bottom: 1px solid #222;
+    padding-bottom: 15px;
+}
+
+.ite-his:last-child {
+    border-bottom: none;
+}
+
+.sep-roj {
+    border: 0;
+    border-top: 2px solid #8b0000;
+    margin: 30px 0;
+}
+
+.blo-cont {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.dat-cont {
+    color: #8b0000;
+    font-family: monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+}
