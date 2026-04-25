@@ -1,3 +1,7 @@
+/* Personalmente prefiero hacer de esta forma el CSS, es mucho más texto pero me
+gusta más la organización y el control que tengo sobre cada elemento, además
+de que me permite ser más específico con los estilos. */
+
 body {
     background-color: #0a0a0a;
     color: #cccccc;
